@@ -24,7 +24,7 @@ export default function GetInTouch() {
             <h2 className={styles.heading}>Let’s Connect</h2>
             <div className={styles.actionsColumn}>
               <a
-                href="/assets/Mozhdeh-Khorashahi-cv.pdf"
+                href="/assets/Mozhdeh-Khorashahi-cv2.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.primaryButton}

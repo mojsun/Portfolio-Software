@@ -85,7 +85,7 @@ export default function Hero() {
           </li>
           <li>
             <a
-              href="/assets/Mozhdeh-Khorashahi-cv.pdf"
+              href="/assets/Mozhdeh-Khorashahi-cv2.pdf"
               className={styles.cvLink}
               target="_blank"
               rel="noopener noreferrer"
