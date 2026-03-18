@@ -13,9 +13,17 @@
   align-items: start;
 }
 
+.left {
+  padding-top: 1.75rem;
+}
+
 @media (max-width: 768px) {
   .grid {
     grid-template-columns: 1fr;
+  }
+
+  .left {
+    padding-top: 0;
   }
 }
 
@@ -167,6 +175,70 @@
 .submitText:hover {
   background: var(--accent-gold);
   color: var(--bg);
+}
+
+.availabilityNote {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.panel {
+  padding: 1.75rem 1.5rem;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: rgba(6, 12, 32, 0.9);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
+}
+
+.actionsColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.primaryButton,
+.secondaryButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.primaryButton {
+  background: var(--accent-gold);
+  color: var(--bg);
+  border-color: var(--accent-gold);
+}
+
+.primaryButton:hover {
+  background: transparent;
+  color: var(--accent-gold);
+}
+
+.secondaryButton {
+  background: transparent;
+  color: var(--text);
+  border-color: var(--line);
+}
+
+.secondaryButton:hover {
+  border-color: var(--accent-gold);
+  color: var(--accent-gold);
+}
+
+.resumeNote {
+  font-size: 0.8rem;
+  color: var(--text-muted);
 }
 
 .error {
