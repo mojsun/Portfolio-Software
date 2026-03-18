@@ -46,7 +46,7 @@ export default function Hero() {
         <div className={styles.label}>About Me</div>
         <TypingHeading />
         <p className={styles.text}>
-          QA Engineer specializing in UI, API, and hybrid test automation using Selenium, Cypress, and Python. Strong background in both QA and web development with hands-on experience building and testing scalable web applications.
+          Full‑Stack Developer building modern web apps with React, Next.js, Node.js, and MongoDB. I focus on responsive UI, API integrations, and performance—bringing a strong testing and automation background to ship reliable features end‑to‑end, with the MERN stack (MongoDB, Express, React, Node) as my core strength.
         </p>
         <div className={styles.readMore}>
           <a href="#software">View projects →</a>
