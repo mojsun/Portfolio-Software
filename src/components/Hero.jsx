@@ -46,7 +46,11 @@ export default function Hero() {
         <div className={styles.label}>About Me</div>
         <TypingHeading />
         <p className={styles.text}>
-          Full‑Stack Developer building modern web apps with React, Next.js, Node.js, and MongoDB. I focus on responsive UI, API integrations, and performance—bringing a strong testing and automation background to ship reliable features end‑to‑end, with the MERN stack (MongoDB, Express, React, Node) as my core strength.
+          Full‑Stack Developer focused on building scalable web applications with the MERN stack
+          (MongoDB, Express, React, Node), Next.js, and modern JavaScript. I design and ship
+          responsive UIs, REST and GraphQL APIs, and database‑backed features end‑to‑end, with a
+          strong focus on performance, debugging, and smooth integration between frontend and
+          backend.
         </p>
         <div className={styles.readMore}>
           <a href="#software">View projects →</a>
