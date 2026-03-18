@@ -2,7 +2,6 @@ import { useEffect } from 'react'
 import Hero from '../components/Hero'
 import Experience from '../components/Experience'
 import SkillsMarquee from '../components/SkillsMarquee'
-import PortfolioQA from '../components/PortfolioQA'
 import SectionDivider from '../components/SectionDivider'
 import PortfolioSoftware from '../components/PortfolioSoftware'
 import GetInTouch from '../components/GetInTouch'
@@ -33,9 +32,6 @@ export default function HomePage() {
       </div>
       <div className={styles.sectionAnimate} data-animate>
         <SkillsMarquee />
-      </div>
-      <div className={styles.sectionAnimate} data-animate>
-        <PortfolioQA />
       </div>
       <div className={styles.sectionAnimate} data-animate>
         <SectionDivider />

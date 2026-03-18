@@ -5,7 +5,7 @@ import styles from './Hero.module.css'
 
 const PHOTO_SRC = '/photo.jpeg'
 
-const SECTION_IDS = ['home', 'experience', 'skills', 'portfolio', 'software', 'get-in-touch']
+const SECTION_IDS = ['home', 'experience', 'skills', 'software', 'get-in-touch']
 
 export default function Hero() {
   const [showVersions, setShowVersions] = useState(false)
@@ -49,7 +49,7 @@ export default function Hero() {
           QA Engineer specializing in UI, API, and hybrid test automation using Selenium, Cypress, and Python. Strong background in both QA and web development with hands-on experience building and testing scalable web applications.
         </p>
         <div className={styles.readMore}>
-          <a href="#portfolio">View projects →</a>
+          <a href="#software">View projects →</a>
         </div>
       </section>
 
@@ -76,9 +76,6 @@ export default function Hero() {
           </li>
           <li data-section="skills" className={activeSection === 'skills' ? styles.navItemActive : ''}>
             <a href="/#skills">Skills</a>
-          </li>
-          <li data-section="portfolio" className={activeSection === 'portfolio' ? styles.navItemActive : ''}>
-            <Link to="/qa">QA Project</Link>
           </li>
           <li data-section="software" className={activeSection === 'software' ? styles.navItemActive : ''}>
             <Link to="/software">Software Project</Link>
